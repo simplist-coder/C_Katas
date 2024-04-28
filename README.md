@@ -1,9 +1,14 @@
 # C Pointer Coding Katas
 
-1. write a function to add two numbers using only pointers (the return value can be int)
-2. Print a String "character by character" by advancing its pointer to the next character using another function
+1. Write a function to print a variable and its address
+2. Write a function which increments an integer using pointers
+3. Write a function to add two numbers using only pointers 
+4. Print a String "character by character" by advancing its pointer to the next character using another function
    ```void advance_pointer(???)```
-3. Using the Following single-linked list template write a function each to:
+5. Write a function to concatenate two strings. Assume that they end properly in '\0'.
+6. Write a function to open a file. ```FILE* my_open(char* path)```
+7. Write a function to close a file ```int my_close(FILE* file)```
+8. Using the Following single-linked list template write a function each to:
 ```
    struct node {
     int data;
@@ -20,7 +25,7 @@
     h) release the linked list
     i) swap two elements in the list
 
-4. Repeat exercise 3, but using a double linked list:
+9. Repeat exercise 3, but using a double linked list:
 ```
    struct node {
     int data;
@@ -28,7 +33,7 @@
     struct node *prev;
    };
 ```
-5. Using the Following binary-tree template write a function each to:
+10. Using the Following binary-tree template write a function each to:
 ```
    struct node {
     int data;

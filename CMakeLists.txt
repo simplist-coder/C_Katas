@@ -9,4 +9,10 @@ add_executable(
         ex_2.c
         ex_3.c
         ex_4.c
-        ex_5.c)
+        ex_5.c
+        ex_6.c
+        ex_7.c
+        ex_8.c
+        ex_9.c
+        ex_10.c
+)

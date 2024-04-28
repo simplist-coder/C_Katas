@@ -12,14 +12,14 @@ using ```git checkout -b kata/<user>/<iteration>```.
 This helps to keep things orderly.
 
 Please use the provided run.sh shell script to run your programs. 
-i.e.: ```./run.sh ex_1```
+i.e.: ```./run.sh ex_01```
 
 
 This will compile your file to and run it with valgrind to detect any memory leaks.
 The Goal is to complete all Katas in a way that has no memory leaks.
 
 Each solution should live in its own .c file. For this reason stub files are provided.
-You can verify your setup by running ```./run.sh ex_1```. If there are no errors, you should be good to go!
+You can verify your setup by running ```./run.sh ex_01```. If there are no errors, you should be good to go!
 
 Happy Coding!
 

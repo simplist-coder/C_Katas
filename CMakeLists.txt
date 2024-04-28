@@ -5,14 +5,14 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(
         C_Exercises
-        ex_1.c
-        ex_2.c
-        ex_3.c
-        ex_4.c
-        ex_5.c
-        ex_6.c
-        ex_7.c
-        ex_8.c
-        ex_9.c
+        ex_01.c
+        ex_02.c
+        ex_03.c
+        ex_04.c
+        ex_05.c
+        ex_06.c
+        ex_07.c
+        ex_08.c
+        ex_09.c
         ex_10.c
 )
